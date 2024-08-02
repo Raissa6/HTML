@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <form>
+    Nome: <br><input type="text" autofocus="autofocus" aria-placeholder="Seu nome"><br>
+    Idade: <br><input type="number" required="required" min="16" max="100"><br>
+    Seu Site: <br><input type="url" placeholder="ex: htts://www.site.com.br"><br>
+    E-mail: <br><input type="email" required="email"><br>
+    Data de Nascimento: <br><input type="date" required="required"><br>
+    Buscar por: <br><input type="search" required="required"><br>
+    Cor: <br><input type="color" required="required">
+    Placa do carro: <br><input type="text" placeholder="AAA-000" pattern="[A-Za-z]{3}-[0-9]{4}">
+    CEP: <br><input type="text" placeholder="92000-00" pattern="[0-9{5}]-[0-0]{3}" maxlength="9" required="required">
+    <input type="submit" value="Cadastro">
+    </form>
+</body>
+</html>
